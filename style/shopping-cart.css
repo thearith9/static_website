@@ -1,0 +1,53 @@
+.content {
+  background: #f3f4f6;
+  padding: 1rem;
+  border-top: 1px solid #4338ca;
+  border-bottom: 1px solid #4338ca;
+}
+
+.content a {
+  text-decoration: none;
+  padding-right: 0.6rem;
+  color: #9ca3af;
+}
+
+.content a:hover {
+  color: #4338ca;
+}
+
+.content p {
+  padding-right: 0.6rem;
+}
+
+.body {
+  display: flex;
+}
+
+.body-left {
+  width: 70%;
+}
+
+input[type="radio"] {
+  width: 1.3rem;
+  height: 1.3rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+input[type="radio"]:checked {
+  appearance: none;
+  border-radius: 100%;
+  background-color: white;
+  outline: 6px solid #4f46e5;
+  margin: 0 0.8rem 0 0.4rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.body-right {
+  width: 30%;
+  height: 400px;
+  background: white;
+  padding: 1rem;
+  margin-left: 1rem;
+}

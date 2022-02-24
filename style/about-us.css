@@ -1,0 +1,108 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: red; */
+}
+
+.nav {
+  color: #374151;
+}
+
+#navigation a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  padding: 0.3rem 1.5rem;
+}
+
+/* start navigatio */
+#navigation a:hover {
+  color: #4338ca;
+}
+
+.active {
+  color: #4338ca;
+  background: #c7d2fe;
+}
+
+.bg-img {
+  background-image: url("../assets/about-us.jpg");
+  background-size: 100% 700px;
+  padding: 4rem;
+  margin-bottom: 2rem;
+}
+
+.line {
+  height: 5px;
+  width: 220px;
+  border-radius: 10%;
+  background: #4338ca;
+  margin: 2rem 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 1rem auto;
+  border-top: 1px solid #ddd6fe;
+}
+
+.footer h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+input[type="email"] {
+  padding: 0.6rem;
+  margin: 0.4rem 0;
+  width: 100%;
+  outline: none;
+}
+
+.btn {
+  background: #4338ca;
+  padding: 0.6rem 2.5rem;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #4c1d95;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  margin: 0.4rem 0;
+}
+
+.link img {
+  width: 2rem;
+  background: #e5e7eb;
+  border-radius: 100%;
+  padding: 2px;
+  margin: 0 0.3rem 0 0;
+  cursor: pointer;
+}

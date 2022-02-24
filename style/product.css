@@ -1,0 +1,30 @@
+.navigate {
+  display: flex;
+  border-top: 1px solid #d1d5db;
+  border-bottom: 1px solid #d1d5db;
+  padding: 1rem 0;
+}
+
+.navigate p,
+a {
+  color: #9ca3af;
+  padding: 0 0.5rem;
+  text-decoration: underline;
+}
+
+.navigate a:hover,
+p:hover {
+  color: #4338ca;
+  cursor: pointer;
+}
+
+.product-content-body {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-content-details {
+  width: 100%;
+  padding: 0 5rem;
+}
